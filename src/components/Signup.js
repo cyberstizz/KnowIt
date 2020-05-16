@@ -24,8 +24,8 @@ export default class Signup extends Component {
     render() {
         return (
             <section>
-                <h1>React-Modal Examples</h1>
-                <input type="button" value="Open" onClick={() => this.openModal()} />
+                
+                <input type="button" value="Sign Up" onClick={() => this.openModal()} />
                 <Modal visible={this.state.visible} width="400" height="300" effect="fadeInUp" onClickAway={() => this.closeModal()}>
                     <div>
                     <form onSubmit={this.handleChange}>
