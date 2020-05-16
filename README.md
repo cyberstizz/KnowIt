@@ -82,4 +82,4 @@ Adobe xd
 Team
 Brian
 Charles
-Dej
+Deji
