@@ -1,5 +1,6 @@
 import React, { Component } from 'react'
 import axios from 'axios'
+import Signup from './components/Signup'
 
 export default class App extends Component {
 
@@ -31,6 +32,7 @@ export default class App extends Component {
   render() {
     return (
       <div>
+        <Signup />
         <ul>
           {this.state.data.map((recipe, id) => <h4 key={id}> {recipe.title} </h4>)}
         </ul>
