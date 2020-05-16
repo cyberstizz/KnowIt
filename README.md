@@ -1,4 +1,4 @@
-Project url: [![Netlify Status](https://api.netlify.com/api/v1/badges/21d6e2b6-6a79-4898-a3f1-4ec87ccedb52/deploy-status)](https://app.netlify.com/sites/knowit/deploys)
+Project url: https://knowit.netlify.app/
 
 Purpose: 
 Students and professionals all around the world are looking for the most effective way to study and retain information. From complex fields of study such as Rocket Science, to Art and Literature, better retention of information is essential to all scholars.
