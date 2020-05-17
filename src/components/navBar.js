@@ -12,6 +12,7 @@ export class NavBar extends React.Component{
                 <li>Create</li>
                 <li>Edit</li>
                 <li>Delete</li>
+                <li>Sign out</li>
                 </ul>
             </div>
         );
