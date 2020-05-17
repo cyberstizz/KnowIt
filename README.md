@@ -83,3 +83,17 @@ Team
 Brian
 Charles
 Deji
+
+
+## WireFRAME
+#### User Authentication
+![1](./src/components/img/wireframe_oauth.JPG)
+
+#### User Experience
+![2](./src/components/img/wireframe4.jpg)
+
+#### Components Overview
+![3](./src/components/img/wireframe_overview.JPG)
+
+#### Stretch Goals Features
+![4](./src/components/img/wireframe_Stretch.JPG)
