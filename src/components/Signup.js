@@ -1,50 +1,83 @@
-import React, { Component } from 'react'
-import '../App.css'
-import Modal from 'react-awesome-modal'
+import React, { useState } from "react";
+import { Link } from "react-router-dom";
 
-export default class Signup extends Component {
-    constructor(props) {
-        super(props);
-        this.state = {
-            visible : false
-        }
-    }
+const SignUp = () => {
+  
+  const [email, setEmail] = useState("");
+  const [password, setPassword] = useState("");
+  const [displayName, setDisplayName] = useState("");
+  const [error, setError] = useState(null);
+  
+  const createUserWithEmailAndPasswordHandler = (event, email, password) => {
+    event.preventDefault();
+    setEmail("");
+    setPassword("");
+    setDisplayName("");
+  };
  
-    openModal() {
-        this.setState({
-            visible : true
-        });
+  const onChangeHandler = event => {
+    const { name, value } = event.currentTarget;
+    
+    if (name === "userEmail") {
+      setEmail(value);
+    } else if (name === "userPassword") {
+      setPassword(value);
+    } else if (name === "displayName") {
+      setDisplayName(value);
     }
+  };
  
-    closeModal() {
-        this.setState({
-            visible : false
-        });
-    }
- 
-    render() {
-        return (
-            <section>
-                
-                <input type="button" value="Sign Up" onClick={() => this.openModal()} />
-                <Modal className="test" visible={this.state.visible} width="400" height="300" effect="fadeInUp" onClickAway={() => this.closeModal()}>
-                    <div>
-                    <form onSubmit={this.handleChange}>
-                     <label>
-                         Email:
-                            <input id="email
-                            "type="text" onChange={this.handleChange}/>
-                        Password:
-                            <input type="text" onChange={this.handleChange}/>
-                            <input type="submit" value="Submit" onClick={this.handleSubmit}/>
-                     </label>
-                    </form>
-                        <a href="javascript:void(0);" onClick={() => this.closeModal()}>Close</a>
-                    </div>
-                </Modal>
-            </section>
-        );
-    }
-}
-
-
+  return (
+    <div className="signup-forms">
+      <h1>Sign Up</h1>
+      <div>
+        {error !== null && (
+          <div>
+            {error}
+          </div>
+        )}
+        <form className="">
+          <label htmlFor="displayName" className="block">
+            UserName:
+          </label>
+          <input
+            type="text"
+            name="displayName"
+            value={displayName}
+            placeholder="knoWIT"
+            id="displayName"
+            onChange={event => onChangeHandler(event)}
+          />
+          <label htmlFor="userEmail">
+            Email:
+          </label>
+          <input
+            type="email"
+            className=""
+            name="userEmail"
+            value={email}
+            placeholder="knowit@gmail.com"
+            id="userEmail"
+            onChange={event => onChangeHandler(event)}
+          />
+          <label htmlFor="userPassword" className="block">
+            Password:
+          </label>
+          <input
+            type="password"
+            className=""
+            name="userPassword"
+            value={password}
+            placeholder="Enter Password"
+            id="userPassword"
+            onChange={event => onChangeHandler(event)}
+          />
+          <input type="submit" value="Submit" onClick={event => {
+              createUserWithEmailAndPasswordHandler(event, email, password);
+            }}/>
+        </form>   
+      </div>
+    </div>
+  );
+};
+export default SignUp;
