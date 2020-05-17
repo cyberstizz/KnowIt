@@ -32,6 +32,7 @@ export default class App extends Component {
   render() {
     return (
       <React.Fragment>
+       {/* <NavBar /> */}
         <Signup />
         {/* <div>
           <ul>
