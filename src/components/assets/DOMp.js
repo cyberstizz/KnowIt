@@ -11,7 +11,7 @@ export default class DOMp extends Component {
                 <div className = "card4note">
                 <img src={img1} alt=" A list of  Seven Key Element of a Successful Project" style={card_temp_Style}/>  {/* define Margines, boundaries, Padding & SizeConstrains in SASS */}
                     <div className = "note4card">
-                        <p className = "cardNote" style={note_temp_style}><b> Key Element of Successfull Project Planning:</b> 
+                        <p className = "cardNote" style={note_temp_style}><b>CARD TITLE: Key Element of Successfull Project Planning</b> 
                          LoremIpsum: El sector educativo, con un volumen de 5 trillones de dólares, ede forma constante.    ProjectPlanning |<b>DECK</b> [Project Managment |<b>BOK</b>] </p> 
                         {/* <h4 className = "cardTitle"> Title_Goes_Here</h4> */}
                     </div>
