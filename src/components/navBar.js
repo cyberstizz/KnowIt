@@ -6,7 +6,7 @@ export class NavBar extends React.Component{
         return (
             <div id="Charles">
                 <div id="userPic"></div>
-                <div id="mainButtons"></div>
+                <div id="mainButtons">
                 <ul>
                 <li>Study</li>
                 <li>Create</li>
@@ -14,6 +14,7 @@ export class NavBar extends React.Component{
                 <li>Delete</li>
                 <li>Sign out</li>
                 </ul>
+                </div>
             </div>
         );
     }
