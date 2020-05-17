@@ -11,6 +11,7 @@ export class NavBar extends React.Component{
                 <li>Study</li>
                 <li>Create</li>
                 <li>Edit</li>
+                <li>Delete</li>
                 </ul>
             </div>
         );
