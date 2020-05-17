@@ -7,7 +7,9 @@ export class NavBar extends React.Component{
             <div id="Charles">
                 <div id="userPic"></div>
                 <div id="mainButtons"></div>
+                <ul>
 
+                </ul>
             </div>
         );
     }
