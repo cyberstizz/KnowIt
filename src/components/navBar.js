@@ -15,6 +15,7 @@ export class NavBar extends React.Component{
                 <li>Sign out</li>
                 </ul>
                 </div>
+                <div id="bottomButtons"></div>
             </div>
         );
     }
