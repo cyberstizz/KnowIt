@@ -274,3 +274,50 @@ height: 30vh;
   width: 100vw;
   border: solid black;
 }
+
+#createSubmit{
+  width: 15vw;
+  background-color: seagreen;
+  margin-left: 23vw;
+  margin-top: 4vw;
+  height: 6vh;
+  border-radius: 12px;
+  color: white;
+  font-family: 'Permanent Marker', cursive;
+font-size: large;
+letter-spacing: 1px;
+}
+
+#createPage{
+  display: inline-flex;
+  flex-direction: column;
+  height: 100vh;
+  width: 60vw;
+  color: black;
+}
+
+#createPageForm{
+  margin-top: 20vh;
+  display: flex;
+  flex-direction: column;
+}
+
+#createSearch{
+  text-align: center;
+  width: 40vw;
+  height: 10vh;
+  margin-left: 10vw;
+  color: seagreen;
+  font-size: large;
+  font-family: 'Permanent Marker', cursive;
+}
+
+#logoDiv{
+  width: 10vw;
+  height: 25vh;
+  background-image: url("./images/knowItSmall.png");
+  background-size: 110%;
+background-position: 100%;
+background-repeat: no-repeat;
+margin-left: 25vw;
+}
