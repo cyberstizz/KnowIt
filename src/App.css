@@ -108,7 +108,7 @@ margin-bottom: 2vh;
 }
 
 #splashBody{
-  background-image: url("./images/backgroundPic-ConvertImage.jpg");
+  background-image: url("./components/img/backgroundPic.jpg");
   opacity: 70%;
   background-size: cover;
   height: 100vh;
@@ -120,7 +120,7 @@ margin-bottom: 2vh;
   height: 15vh;
   display: inline-flex;
 margin-left: 5vw;  
-background-image: url("./images/3323d1d8-aeee-41e8-ae33-b2e7630ff7aa_200x200.png");
+background-image: url("./components/img/logo.png");
 background-size: 50%;
 background-position: 100%;
 background-repeat: no-repeat;
