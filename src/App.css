@@ -1,4 +1,4 @@
-
+@import url('https://fonts.googleapis.com/css2?family=Permanent+Marker&display=swap');
 @import url('https://fonts.googleapis.com/css2?family=Luckiest+Guy&display=swap');
 
 .App {
@@ -105,4 +105,73 @@ margin-bottom: 2vh;
     margin-top: 10vh;
     margin-right: 20vw;
   }
+}
+
+#splashBody{
+  background-image: url("./components/img/backgroundPic.jpg");
+  opacity: 70%;
+  background-size: cover;
+  height: 100vh;
+  width: 100vw;
+}
+
+#logo{
+  width: 20vw;
+  height: 15vh;
+  display: inline-flex;
+margin-left: 5vw;  
+background-image: url("./components/img/logo.png");
+background-size: 50%;
+background-position: 100%;
+background-repeat: no-repeat;
+margin: 0 auto;
+padding-top: 20px;
+}
+
+#navItems{
+  margin-left: 35vw;  
+  width: 30vw;
+height: 15vh;
+display: inline-flex;
+font-size: small;
+display: inline-flex;
+flex-direction: row;
+}
+
+#centerText{
+  display: flex;
+  height: 20vh;
+  width: 60vw;
+  font-family: 'Permanent Marker', cursive;
+text-align: center;
+margin: 0 auto;
+font-size: xx-large;
+margin-top: 20px;;
+color: white;
+}
+
+#signInButton{
+  height:6vh;
+  width: 15vw;
+  background-color: green;
+  border-radius: 10px;
+  display: flex;
+ margin: 0 auto;
+ margin-top: 200px;
+ color: white;
+ align-items: center;
+ font-size: large;
+ padding-left: 50px;
+ font-family: 'Permanent Marker', cursive;
+}
+
+#emphasis{
+  color: darkgreen;
+}
+
+#arrow{
+  margin-left: 20px;
+  background-color: darkgreen;
+  border-radius: 15px;
+  width: 1.1rem;
 }

@@ -2,7 +2,7 @@ import React, { useContext } from "react";
 import {BrowserRouter as Router} from 'react-router-dom';
 import { UserContext } from "../UserProvider"
 import SignIn from "./SignIn";
-import SignUp from './SignUp';
+// import SignUp from './SignUp';
 import Profile from "./Profile";
 import PasswordReset from "./PasswordReset";
 
@@ -14,7 +14,7 @@ function LoginReqs() {
        :
        
         <Router>
-          <SignUp path="signUp" />
+          {/* <SignUp path="signUp" /> */}
           <SignIn path="/" />
           <PasswordReset path = "passwordReset" />
         </Router>
