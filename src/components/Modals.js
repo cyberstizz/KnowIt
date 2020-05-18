@@ -30,7 +30,7 @@ export default class Modals extends Component {
                 <input type="button" value="Sign up" onClick={() => this.openModal()} />
                 <Modal visible={this.state.visible} width="400" height="300" effect="fadeInUp" onClickAway={() => this.closeModal()}>
                     <div>
-                       <SignIn/>
+                       <SignIn />
                         <a href="javascript:void(0);" onClick={() => this.closeModal()}>Close</a>
                     </div>
                 </Modal>

@@ -4,20 +4,21 @@ import DOMp from './components/assets/DOMp'
 import LoginReqs from './components/LoginReqs'
 import UserProvider from './UserProvider'
 
+
 function App(){
 
 
     return (
-      <React.Fragment>
-        
+   <React.Fragment>
+       <Modals/>
         <UserProvider>
-          <LoginReqs/>
-        </UserProvider>
+           <LoginReqs/>
+         </UserProvider>
         
-        <Modals/>
+        
         <DOMp/>
-      </React.Fragment> 
+      </React.Fragment>    
 
     )
 }
-export default App;
+export default App
