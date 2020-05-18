@@ -1,0 +1,52 @@
+* {
+    box-sizing: border-box;
+}
+
+.header {
+    padding: 15px;
+    background : lightgreen;
+}
+
+.SideBar {
+    /* height: 70%; */
+    max-width: 11%;
+    margin-top: 5% ;
+    margin-left: 2% ;
+    float: left;
+    color: #ffffff;
+    background :darkgreen;
+    border: 5px solid lightgrey;
+    padding:2px;
+    display: flexbox
+}
+
+.mainDOMp {
+    max-width: 75%;
+    float: center;
+    padding: 15px;
+    background : lightgreen;
+    /* display:flexbox; */
+    /* margin-right: 2%; */
+}
+    
+    
+.bx{
+    margin-top: 5px;
+    color: green;
+    border: 1px solid #890c04;
+    padding:2px;
+    text-align: left;
+    margin-left: 1%;
+    float : left;
+    background:rgb(211, 211, 211);
+}
+
+.headR {
+    margin-top: 5px;
+    float : right;
+    color: #000000;
+    text-align: center;
+    padding: 4px;
+    box-shadow: 0 4px 8px 0 rgba(0,0,0,0.2), 0 6px 20px 0 rgba(0,0,0,0.19);
+    margin-right: 28%;
+}
