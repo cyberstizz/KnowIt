@@ -1,5 +1,6 @@
 import React from 'react';
 import './App.css';
+import Modals from "./Modals";
 
  class Splash extends React.Component{
 
@@ -15,6 +16,7 @@ import './App.css';
 </div>
 <div id="centerText"><h1>Remember everything you learn <br/><span id="emphasis">From now on!</span></h1></div>
 <button id="signInButton">Get started   <span id="arrow">&#10132;</span></button>
+<Modals/>
 
 <div></div>
 
