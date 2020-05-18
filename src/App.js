@@ -1,5 +1,5 @@
 import React from 'react'
-import Splash from './components/assets/Splash'
+import Splash from './components/Splash'
 //import DOMp from './components/assets/DOMp'
 //import LoginReqs from './components/LoginReqs'
 //import UserProvider from './UserProvider'

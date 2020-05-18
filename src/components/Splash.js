@@ -1,6 +1,6 @@
 import React from 'react';
 //import './App.css';
-import Modals from "../Modals";
+import Modals from "./Modals";
 
  class Splash extends React.Component{
 
