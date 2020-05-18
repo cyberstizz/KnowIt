@@ -4,7 +4,13 @@
 .App {
   text-align: center;
 }
-
+.navlist{
+  color:tomato;
+  display:flex;
+  align-items: center;
+  justify-content: space-around;
+  font-size: 60px;
+}
 .App-logo {
   height: 40vmin;
   pointer-events: none;
@@ -31,14 +37,7 @@
   color: #61dafb;
 }
 
-@keyframes App-logo-spin {
-  from {
-    transform: rotate(0deg);
-  }
-  to {
-    transform: rotate(360deg);
-  }
-}
+
 
 #Charles{
   position: absolute;
@@ -149,8 +148,7 @@ font-size: xx-large;
 margin-top: 20px;;
 color: white;
 }
-
-#signInButton{
+.modal{
   height:6vh;
   width: 15vw;
   background-color: green;
@@ -164,6 +162,24 @@ color: white;
  padding-left: 50px;
  font-family: 'Permanent Marker', cursive;
 }
+.splashmodal{
+  margin-top: 300px;
+
+}
+/* #signInButton{
+  height:6vh;
+  width: 15vw;
+  background-color: green;
+  border-radius: 10px;
+  display: flex;
+ margin: 0 auto;
+ margin-top: 200px;
+ color: white;
+ align-items: center;
+ font-size: large;
+ padding-left: 50px;
+ font-family: 'Permanent Marker', cursive;
+} */
 
 #emphasis{
   color: darkgreen;

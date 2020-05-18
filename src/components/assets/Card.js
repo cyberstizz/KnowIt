@@ -21,13 +21,16 @@ export default class Class extends Component {
                         <p className = "cardNote" style={note_temp_style}><b>CARD TITLE:  Project Planning...    </b>        
                          LoremIpsum: El sector educativo, con un volumen de 5 trillones de dólares, ede forma constante.    ProjectPlanning |<b>DECK</b> [Project Managment |<b>BOK</b>] </p> 
                         {/* <h4 className = "cardTitle"> Title_Goes_Here</h4> */}
-                        <a href= "#" className= "nxBtn" position="relative"> Go</a>
+                        {/* <a href= "#" className= "nxBtn" position="relative"> Go</a> */}
                     </div>
                 </div>
             </React.Fragment>
         );
     };
 };
+
+
+
 
 
 const note_temp_style ={
