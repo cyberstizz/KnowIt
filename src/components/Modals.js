@@ -1,6 +1,6 @@
 import React, { Component } from 'react'
 import Modal from 'react-awesome-modal';
-import SignIn from './SignIn'
+import SignIn from './SignIn';
 
 export default class Modals extends Component {
     constructor(props) {
