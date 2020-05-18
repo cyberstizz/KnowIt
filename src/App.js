@@ -1,8 +1,9 @@
 import React from 'react'
-import Modals from './components/Modals'
+// import Modals from './components/Modals'
 import DOMp from './components/assets/DOMp'
 import LoginReqs from './components/LoginReqs'
 import UserProvider from './UserProvider'
+import Splash from './components/Splash'
 
 
 function App(){
@@ -10,13 +11,14 @@ function App(){
 
     return (
    <React.Fragment>
-       <Modals/>
-        <UserProvider>
+       {/* <Modals/> */}
+       <Splash/>
+        {/* <UserProvider>
            <LoginReqs/>
-         </UserProvider>
+         </UserProvider> */}
         
         
-        <DOMp/>
+        {/* <DOMp/> */}
       </React.Fragment>    
 
     )

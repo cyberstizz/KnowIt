@@ -1,6 +1,5 @@
 import React, { Component } from 'react'
 import Modal from 'react-awesome-modal';
-import SignUp from './SignUp'
 import SignIn from './SignIn'
 
 export default class Modals extends Component {
@@ -27,7 +26,7 @@ export default class Modals extends Component {
         return (
             <section>
                 
-                <input type="button" value="Sign up" onClick={() => this.openModal()} />
+                <input className="modal" type="button" value="Sign In" onClick={() => this.openModal()} />
                 <Modal visible={this.state.visible} width="400" height="300" effect="fadeInUp" onClickAway={() => this.closeModal()}>
                     <div>
                        <SignIn />
