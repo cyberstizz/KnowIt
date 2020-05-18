@@ -4,8 +4,8 @@ import Card from './Card';
 export default class DOMp extends Component {
     render() {
         return (
-            <React.Fragment>
-                <div>
+            <React.Fragment >
+                <div style={styleDOMp}>
                     <Card/>
                 </div>
             </React.Fragment>
@@ -13,3 +13,7 @@ export default class DOMp extends Component {
     };
 };
 
+const styleDOMp = {
+backgroundColor : 'lightgreen',
+
+}

@@ -1,17 +1,19 @@
-import React, { Component } from 'react';
-import Modals from './components/Modals';
-import DOMp from './components/assets/DOMp';
-import Cards from './components/assets/Cards';
+import React from 'react'
+import Splash from './components/Splash'
+//import DOMp from './components/assets/DOMp'
+//import LoginReqs from './components/LoginReqs'
+//import UserProvider from './UserProvider'
 
-export default class App extends Component {
+function App(){
 
- 
-  render() {
+
     return (
       <React.Fragment>
-        <Modals/>
-        <DOMp/>
-      </React.Fragment>  
+        <div>
+          <Splash/>
+        </div>
+      </React.Fragment> 
+
     )
-  }
 }
+export default App;

@@ -1,5 +1,6 @@
-import React, { useState } from "react";
-import { Link } from "react-router-dom";
+import React, { useContext,useState } from "react";
+import { auth, generateUserDocument } from "../firebase";
+import {BrowserRouter as Router,Link} from "react-router-dom";
 
 const SignUp = () => {
   
@@ -8,8 +9,15 @@ const SignUp = () => {
   const [displayName, setDisplayName] = useState("");
   const [error, setError] = useState(null);
   
-  const createUserWithEmailAndPasswordHandler = (event, email, password) => {
+  const createUserWithEmailAndPasswordHandler = async (event, email, password) => {
     event.preventDefault();
+    try{
+      const {user} = await auth.createUserWithEmailAndPassword(email, password);
+      generateUserDocument(user, {displayName});
+    }
+    catch(error){
+      setError('Error Signing up with email and password');
+    }
     setEmail("");
     setPassword("");
     setDisplayName("");
@@ -72,10 +80,16 @@ const SignUp = () => {
             id="userPassword"
             onChange={event => onChangeHandler(event)}
           />
-          <input type="submit" value="Submit" onClick={event => {
-              createUserWithEmailAndPasswordHandler(event, email, password);
-            }}/>
-        </form>   
+          <button onClick={event => {createUserWithEmailAndPasswordHandler(event, email, password);}}>  
+            Sign up
+          </button>
+        </form>
+        <Router>
+          <Link to="/">
+            Sign in here
+          </Link> 
+        </Router>
+          
       </div>
     </div>
   );
