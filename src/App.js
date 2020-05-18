@@ -10,7 +10,7 @@ function App(){
     return (
       <React.Fragment>
         <div>
-          
+          <Splash/>
         </div>
       </React.Fragment> 
 
