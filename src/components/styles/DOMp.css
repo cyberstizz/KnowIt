@@ -1,14 +1,80 @@
+.SideBar{
+    margin-top: 2%;
+    margin-left:2%;
+    background-color: darkgreen;
+    /* overflow: hidden; */
+    box-shadow: 0px 12px 18px -6px rgba(0, 0, 0, 0.3);
+    max-width:150px;
+}
+    
+.mainDOMp{
+    margin-top: 2%;
+    /* overflow: hidden; */
+    background: lightgreen;
+    margin-right: auto;
+    box-shadow: 0px 12px 18px -6px rgba(0, 0, 0, 0.3);
+    min-width: 55vmin;
+    max-width: 70%;
+    
+}
+
+ 
+.grid{
+    /* min-height: 90%;  */
+    display: flex;
+    flex-wrap: nowrap;
+    flex-direction: row;
+}
+
+
+
+.grid > div {
+    flex-basis: calc(50% - 59px)
+}
+
+/* .box { 
+    margin : 15px;
+} */
 * {
+    /* margin: 20px; */
     box-sizing: border-box;
 }
 
+
+/*
+
+* {
+    margin: 20px;
+    box-sizing: border-box;
+}
+
+.grid{
+    min-height: 100%;
+    display: flex;
+    flex-wrap: wrap;
+    flex-direction: row;
+}
+
+.grid > div {
+    flex-basis: calc(50% - 30px)
+}
+*/
+
+/* 
+.mainDOMp:hover{
+    animation: boxyRotation $s infinite linear
+} */
+
+/* ============================================================== */
+
+/* 
 .header {
     padding: 15px;
     background : lightgreen;
 }
 
 .SideBar {
-    /* height: 70%; */
+                                                    height: 70%;
     max-width: 11%;
     margin-top: 5% ;
     margin-left: 2% ;
@@ -25,9 +91,9 @@
     float: center;
     padding: 15px;
     background : lightgreen;
-    /* display:flexbox; */
-    /* margin-right: 2%; */
-}
+                                                    display:flexbox; 
+                                                    margin-right: 2%; 
+    }
     
     
 .bx{
@@ -49,4 +115,4 @@
     padding: 4px;
     box-shadow: 0 4px 8px 0 rgba(0,0,0,0.2), 0 6px 20px 0 rgba(0,0,0,0.19);
     margin-right: 28%;
-}
+} */
