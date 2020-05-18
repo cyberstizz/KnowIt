@@ -1,17 +1,25 @@
-import React, { Component } from 'react'
+import React from 'react'
 import Modals from './components/Modals'
 import DOMp from './components/assets/DOMp'
-export default class App extends Component {
+import LoginReqs from './components/LoginReqs'
+import UserProvider from './UserProvider'
 
- 
-  render() {
+function App(){
+
+
     return (
       
       <React.Fragment>
+        
+        <UserProvider>
+          <LoginReqs/>
+        </UserProvider>
+        
         <Modals/>
         <DOMp/>
-      </React.Fragment>  
+      </React.Fragment> 
+
     )
-  }
 }
+export default App;
 
