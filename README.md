@@ -89,7 +89,7 @@ Deji
 #### User Authentication
 ![1](./src/components/img/wireframe_oauth.JPG)
 
-#### User Experience
+#### User Experience DashBoard
 ![2](./src/components/img/wireframe4.jpg)
 
 #### Components Overview

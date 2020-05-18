@@ -1,9 +1,10 @@
 import React from 'react';
-import './App.css';
-import {BrowserRouter as Router, Route, Switch} from 'react-router-dom';
-
-export class NavBar extends React.Component{
-    render(){
+import '../App.css';
+import {BrowserRouter as Router, Route, Switch, Link} from 'react-router-dom';
+import Create from './Create'
+ 
+function NavBar(){
+    
         return (
             <div id="Charles">
                 <div id="userPic"></div>
@@ -17,9 +18,14 @@ export class NavBar extends React.Component{
                 </ul>
                 </div>
                 <div id="bottomButtons"></div>
+                 
+    <div>
+  
+ 
+    </div>
             </div>
         );
     }
-}
+
 
 export default NavBar;

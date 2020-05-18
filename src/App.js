@@ -8,7 +8,6 @@ function App(){
 
 
     return (
-      
       <React.Fragment>
         
         <UserProvider>
@@ -22,4 +21,3 @@ function App(){
     )
 }
 export default App;
-
