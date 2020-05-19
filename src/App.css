@@ -353,3 +353,22 @@ letter-spacing: 1px;
 #choose{
   margin-left: 3vw;
 }
+
+#hiddenHamburgerMenu{
+  position: absolute;
+  z-index: -2;
+  display: flex;
+  flex-direction: column;
+  height: 20px;
+  width: 5vw;
+  margin-top: 4vh;
+  margin-left: 2vw;
+}
+
+#hiddenHamburgerMenuItems{
+  background-color: black;
+  height: 10px;
+  width: 5vw;
+  margin-bottom: 8px;
+  border-bottom: solid black;
+}
