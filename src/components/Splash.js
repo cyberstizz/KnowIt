@@ -32,12 +32,12 @@ class Splash extends React.Component{
 
 export default Splash;
 
+
+
 const navItemX={
-
 display : 'none',
-
 }
 
-const modalPositioning={
 
+const modalPositioning={
 }

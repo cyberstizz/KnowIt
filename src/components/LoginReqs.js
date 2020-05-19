@@ -22,3 +22,9 @@ function LoginReqs() {
   );
 }
 export default LoginReqs;
+
+{/* <div style={loginVisiblility}><LoginReqs/></div>
+
+const loginVisiblility={
+  display : 'show',
+} */}
