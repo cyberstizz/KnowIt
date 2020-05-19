@@ -14,9 +14,9 @@ function LoginReqs() {
        :
        
         <Router>
-          <SignUp path="signUp" />
-          {/* <SignIn path="/" /> */}
-          <PasswordReset path = "passwordReset" />
+          {/* <SignUp path="signUp" />
+         
+          <PasswordReset path = "passwordReset" /> */}
         </Router>
 
   );

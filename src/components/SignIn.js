@@ -1,6 +1,7 @@
 import React, {useState} from "react";
-import { BrowserRouter as Router,Link } from "react-router-dom";
+import { BrowserRouter as Router,Link,Switch,Route } from "react-router-dom";
 import { auth } from "../firebase";
+import PasswordReset from './PasswordReset'
 
 
 const SignIn = () => {
@@ -71,6 +72,10 @@ const SignIn = () => {
           <Link to = "passwordReset">
             Forgot Password?
           </Link>
+          <Switch>
+             <Route exact path="/passwordReset" component={PasswordReset} />
+          </Switch>
+         
        </Router>     
       </div>
     </div>
