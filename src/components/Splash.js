@@ -9,14 +9,14 @@ class Splash extends React.Component{
   render(){
     return (
       <React.Fragment>
-        <div id="logo"></div>
         <div id="splashBody">
-        
+        <div id="logo"></div>
+
         <div id="navItems"  style={navItemX}>
           <ul>
-              <li className="navlist">Signup</li>
-              <li className="navlist">About</li>
-              <li className="navlist">Help</li>
+              <li className="splashNav">Signup</li>
+              <li className="splashNav">About</li>
+              <li className="splashNav">Help</li>
 
           </ul>
         </div> 
@@ -34,7 +34,7 @@ export default Splash;
 
 const navItemX={
 
-display : 'none',
+display : 'show',
 
 }
 

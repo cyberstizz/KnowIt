@@ -73,7 +73,7 @@
 }
 
 li{
-  font-family: 'Luckiest Guy', cursive;;
+  font-family: 'Luckiest Guy', cursive;
 list-style: none;
 color: white;
 font-size: 10vh;
@@ -86,25 +86,9 @@ list-style: none;
 color: black;
 font-size: 10vh;
 margin-bottom: 2vh;
-
 }
 
-@media only screen and(max-width: 600px){
-  li{
-    font-family: 'Luckiest Guy', cursive;;
-  list-style: none;
-  color: white;
-  font-size: 2vh;
-  margin-bottom: 3vh;
-  }
 
-  #mainButtons{
-    display: flex;
-    height: 50vh;
-    margin-top: 10vh;
-    margin-right: 20vw;
-  }
-}
 
 #splashBody{
   background-image: url("./components/img/backgroundPic.jpg");
@@ -133,7 +117,6 @@ padding-top: 20px;
 height: 15vh;
 display: inline-flex;
 font-size: small;
-display: inline-flex;
 flex-direction: row;
 }
 
@@ -315,9 +298,17 @@ letter-spacing: 1px;
 #logoDiv{
   width: 10vw;
   height: 25vh;
-  /* background-image: url("./images/knowItSmall.png"); */
+ background-image: url("../src/components/img/knowItSmall.png");
   background-size: 110%;
 background-position: 100%;
 background-repeat: no-repeat;
 margin-left: 25vw;
+}
+
+#splashNav{
+  font-family: 'Luckiest Guy', cursive;
+  list-style: none;
+  color: white;
+  font-size: 5vh;
+  margin-bottom: 3vh;
 }
