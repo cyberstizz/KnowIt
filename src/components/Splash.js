@@ -1,8 +1,8 @@
 import React from 'react';
- import '../App.css'
-import Modals from "./Modals";
-import UserProvider from '../UserProvider'
-import LoginReqs from './LoginReqs'
+import '../App.css';
+import UserProvider from '../UserProvider';
+import Modals from "./Modals"; 
+import LoginReqs from './LoginReqs'; //import Modals from "./Modals"; //<LoginReqs/>
  
 class Splash extends React.Component{
 
