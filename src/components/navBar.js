@@ -3,14 +3,29 @@ import './App.css';
 
  export class Charles extends React.Component{
 
+   collapse = () =>{
+    document.getElementById('Charles').style.visibility = 'hidden';
+  };
+  extend = () =>{
+    document.getElementById('Charles').style.visibility = 'visible';
+  };
   render(){
+   
+    
   return (
+    <React.Fragment>
+    <div id="hiddenHamburgerMenu" onClick={this.extend}>
+    <span id="hiddenHamburgerMenuItems"></span>
+    <span id="hiddenHamburgerMenuItems"></span>
+    <span id="hiddenHamburgerMenuItems"></span>
+  </div>
     <div id="Charles">
-      <div id="extendedHamburgerMenu">
+      <div id="extendedHamburgerMenu" onClick={this.collapse}>
         <span id="extendedHamburgerMenuItems"></span>
         <span id="extendedHamburgerMenuItems"></span>
         <span id="extendedHamburgerMenuItems"></span>
       </div>
+         
       <div id="userPic"></div>
       <ul>
       <div id="mainButtons">
@@ -26,6 +41,7 @@ import './App.css';
       </ul>
   
     </div>
+    </React.Fragment>
 
   );
   }
