@@ -341,3 +341,15 @@ margin-left: 25vw;
 font-size: large;
 letter-spacing: 1px;
 }
+
+#deleteDeck{
+  color: seagreen;
+  font-size: xx-large;
+  margin-top: 5vh;
+  margin-left: 20vw;
+  font-family: 'Luckiest Guy', cursive;
+}
+
+#choose{
+  margin-left: 3vw;
+}
