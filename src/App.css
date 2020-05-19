@@ -312,3 +312,32 @@ margin-left: 25vw;
   font-size: 5vh;
   margin-bottom: 3vh;
 }
+
+#editSearch{
+  text-align: center;
+  width: 30vw;
+  height: 10vh;
+  margin-left: 15vw;
+  color: seagreen;
+  font-size: large;
+}
+
+#editPageForm{
+  margin-left: 2vw;
+  margin-top: 10vh;
+  display: flex;
+  flex-direction: column;
+}
+
+#editSubmit{
+  width: 10vw;
+  background-color: seagreen;
+  margin-left: 25vw;
+  margin-top: 4vw;
+  height: 6vh;
+  border-radius: 12px;
+  color: white;
+  font-family: 'Permanent Marker', cursive;
+font-size: large;
+letter-spacing: 1px;
+}
