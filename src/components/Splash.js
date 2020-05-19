@@ -11,15 +11,18 @@ class Splash extends React.Component{
       <React.Fragment>
         <div id="logo"></div>
         <div id="splashBody">
-        <div id="navItems">
+        
+        <div id="navItems"  style={navItemX}>
           <ul>
               <li className="navlist">Signup</li>
               <li className="navlist">About</li>
               <li className="navlist">Help</li>
 
           </ul>
-        </div>
-        <div id="centerText"><h1>Remember everything you learn <br/><span id="emphasis">From now on!</span></h1><Modals/></div>
+        </div> 
+
+        <div id="centerText"><h1>Remember everything you learn <br/><span id="emphasis">From now on!</span></h1></div>
+          <div syle={modalPositioning}> <Modals/> </div>
         <UserProvider/>
         </div>  
       </React.Fragment>
@@ -28,3 +31,13 @@ class Splash extends React.Component{
 }
 
 export default Splash;
+
+const navItemX={
+
+display : 'none',
+
+}
+
+const modalPositioning={
+
+}

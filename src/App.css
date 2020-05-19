@@ -315,7 +315,7 @@ letter-spacing: 1px;
 #logoDiv{
   width: 10vw;
   height: 25vh;
-  background-image: url("./images/knowItSmall.png");
+  /* background-image: url("./images/knowItSmall.png"); */
   background-size: 110%;
 background-position: 100%;
 background-repeat: no-repeat;
