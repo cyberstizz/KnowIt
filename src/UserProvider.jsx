@@ -25,3 +25,11 @@ class UserProvider extends Component {
     }
 
     export default UserProvider;
+
+
+    {/* <div style={loginVisiblility}><LoginReqs/></div>
+
+const loginVisiblility={
+  display : 'show',
+} */}
+
